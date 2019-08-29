@@ -6,8 +6,7 @@ import Service from './screens/service';
 function App() {
   return (
     <>
-    <Home>
-    </Home>
+    <Home />
     <Service></Service>
     </>
   );

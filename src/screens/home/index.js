@@ -1,11 +1,15 @@
 import React from 'react';
-import { HomeContainer, BackgroundHomeContainer } from './styled-wrappers'
+
+import MenuBar from '../../components/menu-bar';
+import Content from './content';
+import { Container } from './styled-wrappers';
 
 function Home() {
     return (
-      <HomeContainer >
-        
-      </HomeContainer>
+      <Container>
+        <MenuBar />
+        <Content />
+      </Container>
     );
 }
 

@@ -1,14 +1,36 @@
 import styled from 'styled-components';
 
-export const MenuOptionsContainer = styled.div`
+export const Container = styled.div`
     display: flex;
     flex: 1;
     flex-direction: row;
     justify-content: space-between;
-    background-color: black;
-    margin: 0 15%;
+    margin: 0 17%;
+    padding-top: 2%;
+    align-items: center;
+`;
+
+export const LogoContainer = styled.div`
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+`;
+
+export const Logo = styled.img`
+    width: 30%;
+    height: 60%;
+`;
+
+export const MenuContainer = styled.div`
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0% 5%;
 `;
 
 export const MenuTitle = styled.span`
     color: white;
+    font-size: 1vw;
 `;
