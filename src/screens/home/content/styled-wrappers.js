@@ -13,13 +13,29 @@ export const TextHomeContainer = styled.div`
     display: flex;
     flex: 1;
     flex-direction: column;
-    justify-content:center
+    justify-content:right;
+    align-items: flex-start;
+    line-height: 200%;
+`;
+
+export const InfoHomeContainer = styled.div`
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content:right;
+    align-items: flex-end;
+    padding-right: 5%;
 `;
 
 export const HomeText = styled.span`
     color: white;
-    font-size: 1vw;
+    font-size: 1.2vw;
     text-align: left;
+    font-weight: bold;
+`;
+
+export const DevNinjaText = styled.span`
+    color: #f5aa42;
 `;
 
 export const ImgHomeContainer = styled.div`
@@ -28,7 +44,12 @@ export const ImgHomeContainer = styled.div`
     flex-direction: column;
 `;
 
+export const ButtonContainer = styled.div`
+    width: 100%;
+    padding-top: 15%;
+`;
+
 export const Img = styled.img`
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
 `;

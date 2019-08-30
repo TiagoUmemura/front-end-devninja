@@ -5,9 +5,10 @@ export const Container = styled.div`
     flex: 1;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 17%;
+    padding: 0 17%;
     padding-top: 2%;
     align-items: center;
+    background-color: #00A1EF;
 `;
 
 export const LogoContainer = styled.div`
