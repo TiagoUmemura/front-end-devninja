@@ -21,7 +21,12 @@ function Content() {
               <HomeText>A <DevNinjaText>devninjas</DevNinjaText> focada no</HomeText>
               <HomeText>desenvolvimento do aplicativo</HomeText>
               <ButtonContainer>
-                <Button width={'60%'} height={'10%'} text={'Conheça a devninjas'}></Button>
+                <Button 
+                  width={'60%'} 
+                  height={'10%'} 
+                  text={'Conheça a devninjas'} 
+                  onClickHandler={() => console.log('test click')}
+                />
               </ButtonContainer>
           </TextHomeContainer>
         </InfoHomeContainer>
