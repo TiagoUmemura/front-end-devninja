@@ -6,6 +6,7 @@ import MenuBar from './components/menu-bar';
 import ProcessDevelopment from './screens/process-development';
 import BannerProcessDevelopment from './screens/banner-process-development';
 import Customers from './screens/customers';
+import YourProject from './screens/your-project';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <ProcessDevelopment/>
       <BannerProcessDevelopment/>
       <Customers/>
+      <YourProject/>
     </>
   );
 }
