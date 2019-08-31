@@ -18,3 +18,17 @@ export const ContainerCards = styled.div`
     align-items: center;
     padding: 0 10%;
 `;
+
+export const ContainerTitle = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+`;
+
+export const Title = styled.span`
+    font-size: 3vh;
+    color: #00A1EF;
+    font-weight: bold;
+`;

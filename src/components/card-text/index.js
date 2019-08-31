@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Container, Title, Text, ContainerIcon, Img,ContainerTitle } from './styled-wrappers';
+import { Container, Title, Text, ContainerIcon, Img,ContainerTitle, ContainerText, Hr } from './styled-wrappers';
 
 function CardText({width, height, title, text, icon, color}) {
     return (
@@ -9,8 +9,11 @@ function CardText({width, height, title, text, icon, color}) {
           <ContainerIcon><Img src={icon}/></ContainerIcon>
           <ContainerTitle>
             <Title color={color}>{title}</Title>
+            <Hr color={color}/>
           </ContainerTitle>
-          <Text>{text}</Text>
+          <ContainerText>
+            <Text>{text}</Text>
+          </ContainerText>
       </Container>
     );
 }

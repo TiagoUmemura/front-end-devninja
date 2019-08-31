@@ -17,23 +17,21 @@ export const ContainerTitle = styled.div`
     display: flex;
     flex:1;
     width: 100%;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     text-align: left;  
-    padding: 20% 0 0 20%;
+    padding: 20% 0 0 16%;
 `;
 
-export const Title = styled.span`
-    font-size: 2.5vh;
-    color: ${props => props.color ? props.color : 'black'};
-    word-spacing: 10px;
-    font-weight: bold;
-`;
-
-export const Text = styled.span`
-    font-size: 1vh;
-    color: ${props => props.color ? props.color : 'black'};
+export const ContainerText = styled.div`
+    display: flex;
+    flex:4;
+    width: 85%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
 `;
 
 export const ContainerIcon = styled.div`
@@ -43,10 +41,30 @@ export const ContainerIcon = styled.div`
     justify-content: center;
     position: absolute;
     left: -10%;
-    top: -9%;
+    top: -11%;
+`;
+
+export const Title = styled.span`
+    font-size: 2.5vh;
+    color: ${props => props.color ? props.color : 'black'};
+    word-spacing: 10px;
+    font-weight: bold;
 `;
 
 export const Img = styled.img`
     width: 40%;
     height: 40%;
+`;
+
+export const Text = styled.span`
+    font-size: 1.9vh;
+    color: ${props => props.color ? props.color : '#a6a8ab'};
+    line-height: 130%;
+`;
+
+export const Hr = styled.div`
+    height: 10%;
+    width: 22%;
+    margin-top: 5%;
+    background-color: ${props => props.color ? props.color : 'black'};;
 `;
