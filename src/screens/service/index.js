@@ -24,7 +24,7 @@ function Service() {
           />
           <IconText 
             icon={UiUxDesign} 
-            title={'Ui/Ux Design'}
+            title={'UI/UX Design'}
             text={'Criamos de identidade visual e pensamos na usabilidade e na experiência do usuário'}
           />
           <IconText 

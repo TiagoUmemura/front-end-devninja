@@ -8,6 +8,7 @@ export const Container = styled.div`
     flex: 1;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 10%;
 `;
 
 export const IconsContainer = styled.div`
