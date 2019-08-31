@@ -16,6 +16,7 @@ export const LogoContainer = styled.div`
     flex: 1;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 5%;
 `;
 
 export const Logo = styled.img`

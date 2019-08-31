@@ -24,7 +24,7 @@ export const InfoHomeContainer = styled.div`
     flex-direction: column;
     justify-content:right;
     align-items: flex-end;
-    padding-right: 5%;
+    padding-right: 12%;
 `;
 
 export const HomeText = styled.span`
@@ -32,6 +32,7 @@ export const HomeText = styled.span`
     font-size: 1.2vw;
     text-align: left;
     font-weight: bold;
+    word-spacing: 15px;
 `;
 
 export const DevNinjaText = styled.span`
