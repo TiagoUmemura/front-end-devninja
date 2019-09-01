@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    height: 13%;
+    height: 40%;
     width: 60%;
     background-color: #00A1EF;
     display: flex;
@@ -13,10 +13,12 @@ export const Container = styled.div`
     margin: 1% 0;
 `;
 
-export const ContainerCheckbox = styled.div`
+export const ContainerInputLine = styled.div`
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding-top: 2%;
+    flex-direction: row;
+    width: 100%;
 `;
 
 export const Title = styled.span`

@@ -6,7 +6,7 @@ export const Container = styled.div`
     flex: 1;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
 `;
 
 export const TitleContainer = styled.div`

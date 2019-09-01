@@ -12,8 +12,8 @@ export const Container = styled.div`
 `;
 
 export const Img = styled.img`
-    width: ${props => props.width ? props.width : '40%'};;
-    height: ${props => props.width ? props.width : '40%'};;
+    width: ${props => props.width ? props.width : '40%'};
+    height: ${props => props.width ? props.width : '40%'};
 `;
 
 export const Title = styled.span`
