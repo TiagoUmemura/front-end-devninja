@@ -7,17 +7,19 @@ import ProcessDevelopment from './screens/process-development';
 import BannerProcessDevelopment from './screens/banner-process-development';
 import Customers from './screens/customers';
 import YourProject from './screens/your-project';
+import BannerTalkToUs from './screens/banner-talk-to-us';
 
 function App() {
   return (
     <>
-      <MenuBar/>
+      <MenuBar />
       <Home />
-      <Service/>
-      <ProcessDevelopment/>
-      <BannerProcessDevelopment/>
-      <Customers/>
-      <YourProject/>
+      <Service />
+      <ProcessDevelopment />
+      <BannerProcessDevelopment />
+      <Customers />
+      <YourProject />
+      <BannerTalkToUs />
     </>
   );
 }
