@@ -8,6 +8,7 @@ import BannerProcessDevelopment from './screens/banner-process-development';
 import Customers from './screens/customers';
 import YourProject from './screens/your-project';
 import BannerTalkToUs from './screens/banner-talk-to-us';
+import Footer from './screens/footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Customers />
       <YourProject />
       <BannerTalkToUs />
+      <Footer />
     </>
   );
 }
